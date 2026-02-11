@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <div id="page1" class="page active">
+  <h1>Before we continue... 😌</h1>
+  <h2>Do you love me?</h2>
+  <button onclick="yesAnswer()">YES 💖</button>
+  <button id="noBtn" onclick="moveNo()">NO 😒</button>
+</div>
+
+<div id="page2" class="page">
+  <h1>Our Legendary Story 📖✨</h1>
+  <p>Once upon a time...</p>
+  <p>You were born.</p>
+  <p>Chaos levels increased worldwide.</p>
+  <p>But somehow... you became my favorite human 😭💖</p>
+  <button onclick="nextPage()">Continue ➡</button>
+</div>
+
+<div id="page3" class="page">
+  <h1>HAPPY BIRTHDAY YOU ICON 🎂👑</h1>
+  <p>You survived the manipulation.</p>
+  <p>You had no choice but to love me 😌</p>
+  <button onclick="confetti()">Celebrate 🎊</button>
+</div>
+
+<!-- Music -->
+<audio id="bgMusic" loop>
+  <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+</audio>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
